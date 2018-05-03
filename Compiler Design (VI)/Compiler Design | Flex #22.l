@@ -1,6 +1,5 @@
 /*
-DFA: Accepts string starting with alphabet x and ends with alphabet y and
-     contains alphabets only.
+DFA: Accepts string starting with alphabet x and ends with alphabet y and contains alphabets only.
 Note: Program works in lowercase only!
 Author: Parth Trehan
 Roll No.: 2010660

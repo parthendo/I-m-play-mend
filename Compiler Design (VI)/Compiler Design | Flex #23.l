@@ -1,5 +1,5 @@
 /*
-DFA: Accepts string containing a valid C identifier
+DFA: Accepts string containing a valid C language identifier
 Author: Parth Trehan
 Roll No.: 2010660
 */

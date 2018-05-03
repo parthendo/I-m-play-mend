@@ -1,5 +1,6 @@
 /*
 Mod-5 machine: Accepts binary numbers divisible by 5
+Author: Parth Trehan
 */
 %{
 %}

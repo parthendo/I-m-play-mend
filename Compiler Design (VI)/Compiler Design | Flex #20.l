@@ -1,5 +1,5 @@
 /*
-DFA: Accepts all the strings either stating from 111 or ending with 000
+DFA: Accepts all the strings either starting from 111 or ending with 000
 Author: Parth Trehan
 Roll No.: 2010660
 */

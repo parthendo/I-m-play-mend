@@ -1,5 +1,5 @@
 /*
-DFA: Accepts all the strings having even number of 0s and 1s
+DFA: Accepts all the strings having even number of 0s
 Author: Parth Trehan
 Roll No.: 2010660
 */

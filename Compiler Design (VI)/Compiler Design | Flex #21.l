@@ -1,5 +1,5 @@
 /*
-DFA: Accepts string starting with a vowel and containing name as a substring
+DFA: Accepts string starting with a vowel and containing first name as a substring
 Note: Program works in lowercase only!
 Author: Parth Trehan
 Roll No.: 2010660
