@@ -85,7 +85,7 @@ def main():
     n_class1 = int(input("Enter the number of examples present in class 1: "))
     fileformat_class2 = str(raw_input("Enter the file format of images of class 2: "))
     n_class2 = int(input("Enter the number of examples present in class 2: "))
-    output_filename = "/home/parth/Desktop/Image-classification/trainset.csv"
+    output_filename = "trainset.csv"
     bf.build_feature(output_filename,path_class1,"."+fileformat_class1,0,n_class1,'w')
     bf.build_feature(output_filename,path_class2,"."+fileformat_class2,1,n_class2,'a')    
     #------------------------Testing image prediction---------------------------
