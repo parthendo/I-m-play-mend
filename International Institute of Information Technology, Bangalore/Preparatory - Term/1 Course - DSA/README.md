@@ -1,8 +1,8 @@
 # Course - DSA
 
-_Date: 18/07/19_
-
 ## Questions:
+
+_Date: 18/07/19_
 
 1. Given a binary text and a pattern, search the number of times that pattern occurs in that string using hashing.
 
@@ -13,9 +13,7 @@ _Date: 18/07/19_
 
 4. Repeat the above questions for alphabets as input, alphabets in all cases and alphanumeric input.
 
-Date: 19/07/19
-
-Questions: 
+_Date: 19/07/19_
 
 1. Given an array, create another array which contains the index such that:
 * The index is as minimum as possible
