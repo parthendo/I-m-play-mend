@@ -1,8 +1,8 @@
-## Course- DSA
+# Course - DSA
 
-Date: 18/07/19
+_Date: 18/07/19_
 
-Questions:
+## Questions:
 
 1. Given a binary text and a pattern, search the number of times that pattern occurs in that string using hashing.
 
@@ -18,17 +18,17 @@ Date: 19/07/19
 Questions: 
 
 1. Given an array, create another array which contains the index such that:
-i. The index is as minimum as possible
-ii. Value at that index >= Value at current index for each valid index in the array.
+* The index is as minimum as possible
+* Value at that index >= Value at current index for each valid index in the array.
 
-For the last element in the array, store the size of the array.
+  For the last element in the array, store the size of the array.
 
-Sample Input:
-11
-48 93 12 748 63 7 4 73 98 64 41
+  * Sample Input:
+    11
+    48 93 12 748 63 7 4 73 98 64 41
 
-Sample Output:
-1 3 3 11 7 7 7 8 11 11 11
+  * Sample Output:
+    1 3 3 11 7 7 7 8 11 11 11
 
 2. Input a tree and print all possible traversals of the tree
 3. Build a tree having the same Inorder traversal as of the given tree.
