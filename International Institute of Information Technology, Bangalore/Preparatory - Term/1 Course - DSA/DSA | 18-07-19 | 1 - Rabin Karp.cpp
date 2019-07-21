@@ -10,7 +10,7 @@
 #include <cmath>
 #include <string>
 #include <vector>
-#define mod 2
+#define mod 11
 using namespace std;
 
 int Rabin_Karp(string txt,string pat, int base){
