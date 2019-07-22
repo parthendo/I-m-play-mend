@@ -55,7 +55,15 @@ int extended_Rabin_Karp(string s1,string s2, int l, int base){
     txtx1 = (base*txtx1 + (s1[i]-'0'))%mod;
     hashtable[txtx1].push_back(i-l+1);
   }
-
+  /*
+  // Print hashtable
+  for(int i=0;i<mod;i++){
+    cout << i << ": ";
+    int x = hashtable[i].size();
+    for(int j=0;j<x;j++)
+      cout << hashtable[i][j] << " ";
+    cout << endl;
+  }*/
   ans+=compute(s1,s2,l,0,hashtable,txtx2);
   for(int i=l;i<n2;i++){
     txtx2 = (txtx2-(c*(s2[i-l]-'0')))%mod;
@@ -69,7 +77,7 @@ int extended_Rabin_Karp(string s1,string s2, int l, int base){
 //Driver function
 int main(){
 
-  int ans =  extended_Rabin_Karp("011011","110111",3,2);
+  int ans =  extended_Rabin_Karp("11011111","101101",3,2);
   cout << "Total number of patterns found are " << ans << endl;
   return 0;
 }
