@@ -34,3 +34,21 @@ _Date: 19/07/19_
 5. Build a tree having the same Postorder traversal as of the given tree.
 6. Build a tree out of the given Preorder and Inorder traversals.
 7. Build a tree out of the given Postorder and Inorder traversals.
+
+_Date: 22/07/19_
+
+1. Implement preorder traversal in a binary tree using user stack.
+2. Implement inorder traversal in a binary tree using user stack.
+3. Implement postorder traversal in a binary tree using user stack.
+4. Find the level of all nodes in a tree.
+5. Find the maximum height of the tree.
+6. Find the level order traversal in a binary tree.
+7. Find the level ordering number in a binary tree.
+8. Create a binary search tree and add the fucntionality to:
+   * Add a node
+   * Search a node
+   * Delete a node
+   in that tree.
+9. Given a BST, find the predecessor of the input node in that tree. Predecessor is the node with the largest value, smaller that the input node.
+10. Given a BST, find the successor of the input node in that tree. Successor is the node with the smallest value, larger that the input node.
+11. Given a BST and two integers, L denoting the lower limit and U denoting the upper limit, find all the elements in the BST falling in the given range.
