@@ -5,6 +5,8 @@
  * Worst Case:    O(mn)
  * Sample Input: 11011 101
  * Sample Output: 1
+ *
+ * Problems: The questions isn't working for modulus 5 and 7.
  */
 #include <iostream>
 #include <cmath>
@@ -13,6 +15,8 @@
 #define mod 11
 using namespace std;
 
+/*  We first convert the text and the pattern into denary form and compute the
+    hash value. If the hash value is same, only then we do the brute matching */
 int Rabin_Karp(string txt,string pat, int base){
   int m = txt.length();
   int n = pat.length();
@@ -20,6 +24,7 @@ int Rabin_Karp(string txt,string pat, int base){
   vector<int> index;
   int c = 1, patx = 0, txtx = 0;
   for(int i=0;i<n;i++){
+    // Computing C would reduce the task of calculating 2^x saving log(n) time each time
     c = (c * base)%mod;
     patx = (patx*base + pat[i])%mod;
     txtx = (txtx*base + txt[i])%mod;
@@ -48,7 +53,7 @@ int Rabin_Karp(string txt,string pat, int base){
   cout << endl;
   return l;
 }
-
+//Driver Function
 int main(){
 
   Rabin_Karp("110110110111","1011",2);
