@@ -1,5 +1,5 @@
 /*
- * Problem statement: Find the maximum height of a tree
+ * Problem statement: Find the level of all nodes in a tree
  * Data structure used: Queue
  * Worst Case:    O
  * Sample Input:
