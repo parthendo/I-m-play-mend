@@ -1,5 +1,5 @@
 /*
- * Problem statement: Implement inorder traversal in a binary tree using user stack.
+ * Problem statement: Implement postorder traversal in a binary tree using user stack.
  * Data structure used: Stack
  * Worst Case:    O
  * Sample Input:
