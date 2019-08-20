@@ -7,7 +7,7 @@ using namespace std;
 
 int main(){
 
-  FILE* fp = fopen("file_17_08_19-1.txt","r");
+  FILE* fp = fopen("Test/17_08_19-2.txt","r");
   int t; fscanf(fp,"%d",&t);
   while(t--){
     int n,k;

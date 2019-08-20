@@ -19,7 +19,7 @@
 using namespace std;
 
 int main(){
-  FILE *fp = fopen("file_17_08_19-4.txt","r");
+  FILE *fp = fopen("Test/17_08_19-4.txt","r");
   int t;  fscanf(fp,"%d",&t);
   while(t--){
     int n;  fscanf(fp,"%d",&n);

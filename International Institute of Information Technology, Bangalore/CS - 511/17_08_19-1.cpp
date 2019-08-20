@@ -4,7 +4,7 @@ using namespace std;
 
 int main(){
 
-  FILE* fp = fopen("file_17_08_19.txt","r");
+  FILE* fp = fopen("Test/17_08_19-1.txt","r");
   int n;
   fscanf(fp,"%d",&n);
   int arr[n+5];
