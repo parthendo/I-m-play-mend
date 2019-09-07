@@ -10,7 +10,7 @@
  * Output:
  * Maximum difference is 998034
  * Maximum difference is 990891
- * Maximum difference is 189346
+ * Maximum difference is 189006
  */
 #include <iostream>
 #include <cstdio>
@@ -27,7 +27,7 @@ int main(){
     int arr[n+5];
     for(int i=0;i<n;i++) fscanf(fp,"%d",&arr[i]);
     int maxDiff = INT_MIN;
-    for(int i=0;i<n;i++){
+    for(int i=0;i<n-l;i++){
       for(int j=l;j<n;j++){
         maxDiff=max(arr[j]-arr[i],maxDiff);
       }

@@ -10,7 +10,7 @@
  * Output:
  * Maximum difference is 998034
  * Maximum difference is 990891
- * Maximum difference is 189346
+ * Maximum difference is 189006
  */
 #include <iostream>
 #include <cstdio>
@@ -30,7 +30,7 @@ int main(){
     for(int j=l;j<n;j++){
       maxDiff = max(maxDiff,arr[j]-arr[i]);
       if(arr[i]>arr[j])
-        i = j-l+1;
+        i = j;
     }
     cout << "Maximum difference is " << maxDiff << endl;
   }
