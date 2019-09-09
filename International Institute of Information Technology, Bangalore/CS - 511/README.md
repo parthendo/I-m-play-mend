@@ -12,9 +12,33 @@ Please let me know if you find an error or a better approach.
 
 ## Questions:
 
-_Date: 08/07/19_
+_Date: 08/08/19_
 
 1. Given an unsorted array with distinct integers and a rank R, find the element having that ranking by using the partition method. The pivot in the partition method should be calculated using the deterministic method by calculating the median of 5 elements. Compare and contrast by making a group of more than 5 elements (7,1000) and less than 5 elements. Compute and compare the running time on file sample1.txt. 
+
+2. We are given an unsorted array of N elements, (1<=N<=1000000) and another array of elements. The size of second array is M, (1<=M<=10000). Find the rank of all the elements in second array, in the first array.
+
+_Date: 10/08/19_
+
+1. Implement a binary heap. It supports the following functionality.
+* build_heap(): Converts a vector into a heap. O(n)
+* insert():     Inserts an element into the heap. O(logn)
+* delete():	Delete the topmost element. O(logn)
+* search(X):	Search and element in the heap. O(n)
+* s_delete(X):	Search the element X. If found, delete it. O(logn)
+
+2. Implement a data structure which supports the two functionalities in minimum possible complexity:
+* Add(x):	Add element _x_ to the collection O(logn)
+* DeleteM():	Return the median of the collection and delete it. O(logn)
+
+* Add(x):	Add element _x_ to the collection O(logn)
+* DeleteG():	Delete all the numbers greater than the median. 
+
+3. K-Sorted List Problem: Given K sorted lists in ascending order, find the _x_th smallest number in the collection.
+
+4. Count the number of inversion pairs in an array.
+
+5. Given an array count the number of pairs such that for indeces _i_ and _j_, i<j and Aj> Ai+10
 
 _Date: 17/08/19_
 
@@ -28,5 +52,33 @@ _Date: 17/08/19_
 
 5. 
 
+_Date: 22/08/19_
 
+1. Binomial Heap
+
+_Date: 24/08/19_
+
+1. Fibonacci Heap
+
+_Date: 29/09/19_
+
+1. AVL Tree with Zig-Zag and Zig-Zig implementation.
+
+_Date: 31/09/19_
+
+1. Implement Red Black Tree using the Zig-Zag and the Zig-Zig representation.
+
+2. Define a dynamic data set such that it stores _N_ elements initially. It also supports a findRank(x) which tells the rank of element _x_ in this collection. This element may or maynot exist in the data set. O(logn)
+
+3. In the above dynamic data set, take two elements _L_ and _R_ which may or may not exist in the data set. Now find the number of elements between the two of these. Try to achieve this in O(logn).
+
+4. In the above dynamic data set, find the prefix sum of _x_ i.e. sum of all the numbers smaller than _x_. O(logn)
+
+5. In the above dynamic data set, take two elements _x_ and _y_ which may or may not exist in the data set and find the sum of all the elements between _x_ and _y_ which exist in the data set.
+
+6. Given an array Arr = {1,7,9,20,21,43,98}; not necessarily sorted, define two functions:
+* minGap(): minimum difference between two elements. O(1)  
+* maxGap(): maximum difference between two elements. O(logn)
+* minGap(x,y): minimum difference between the elements in this range. X and Y may or may not exist in the collection. 
+* minGap(x,y): maximum difference between the elements in this range. X and Y may or may not exist on the collection.
 
