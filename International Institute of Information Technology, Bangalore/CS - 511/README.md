@@ -34,11 +34,11 @@ _Date: 10/08/19_
 * Add(x):	Add element _x_ to the collection O(logn)
 * DeleteG():	Delete all the numbers greater than the median. 
 
-3. K-Sorted List Problem: Given K sorted lists in ascending order, find the _x_th smallest number in the collection.
+3. K-Sorted List Problem: Given K sorted lists in ascending order, find the _x_ th smallest number in the collection.
 
 4. Count the number of inversion pairs in an array.
 
-5. Given an array count the number of pairs such that for indeces _i_ and _j_, i<j and Aj> Ai+10
+5. Given an array count the number of pairs such that for indeces _i_ and _j_, i<.j and Aj> Ai+10
 
 _Date: 17/08/19_
 
