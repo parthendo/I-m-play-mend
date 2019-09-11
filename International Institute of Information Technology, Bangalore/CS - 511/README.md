@@ -40,15 +40,17 @@ _Date: 10/08/19_
 
 5. Given an array count the number of pairs such that for indeces _i_ and _j_, i<.j and Aj> Ai+10
 
+6. Generalize the above problem for Aj>Ai+k. 
+
 _Date: 17/08/19_
 
-1. 
+1. Check if an array has a majority element. A majority element is the one which repeats n/2+1 number of times.
 
-2. 
+2. Generalize the above problem for n/k+1 number of times.
 
-3. 
+3. Given an array, find maximum difference between any two elements. O(n)
 
-4. 
+4. Find 
 
 5. 
 
@@ -60,11 +62,11 @@ _Date: 24/08/19_
 
 1. Fibonacci Heap
 
-_Date: 29/09/19_
+_Date: 29/08/19_
 
 1. AVL Tree with Zig-Zag and Zig-Zig implementation.
 
-_Date: 31/09/19_
+_Date: 31/08/19_
 
 1. Implement Red Black Tree using the Zig-Zag and the Zig-Zig representation.
 
@@ -81,4 +83,17 @@ _Date: 31/09/19_
 * maxGap(): maximum difference between two elements. O(logn)
 * minGap(x,y): minimum difference between the elements in this range. X and Y may or may not exist in the collection. 
 * minGap(x,y): maximum difference between the elements in this range. X and Y may or may not exist on the collection.
+
+_Date: 10/09/19_
+
+1. Given an array, you need to perform two operations:
+* update(i,x): Update Arr{i} with x
+* query{i}: Output the index of element with least index having value greater than the Arr{i}
+
+e.g. Arr[] = {43, 33, 58, 12, 6 , 4, 8, 93, 41, 51, 63}
+      Q[]  = { 2, 2 , 7 , 7 , 6 , 6, 7, 11, 9 , 10, 11}
+
+2. Given an array, you need to perform two operations:
+* update(i,x): Update Arr{i} with x
+* rangeM(l,r): Output the minimum element in the range L,R
 
